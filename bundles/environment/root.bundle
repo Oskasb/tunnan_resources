@@ -1,1 +1,434 @@
-{"bc8b219c05e247d5ae44499060eecbf0.environment": {"sound": {"volume": 1, "dopplerFactor": 0, "reverb": 0, "rolloffFactor": 0.4, "maxDistance": 100}, "backgroundColor": [0.3, 0.3, 0.3, 1], "license": "CC0", "created": "2014-09-18T17:55:08.674Z", "deleted": false, "_readOnly": false, "dataModelVersion": 2, "modified": "2014-09-23T17:11:12.607272+00:00", "weather": {"snow": {"velocity": 10, "rate": 10, "enabled": false, "height": 25}}, "fog": {"color": [1, 1, 1], "far": 996, "near": 0, "enabled": false}, "globalAmbient": [0, 0, 0, 0], "skyboxRef": "1d92bc04139948a482f44156031fdb03.skybox", "id": "bc8b219c05e247d5ae44499060eecbf0.environment", "name": "Default Environment"}, "c4e5d6ad08964d45bdd5e066b7c9a079.texture": {"wrapS": "Repeat", "minFilter": "Trilinear", "name": "10567-normal.jpg", "license": "CC0", "flipY": true, "deleted": false, "magFilter": "Bilinear", "created": "2014-09-21T19:33:29.335133+00:00", "_readOnly": false, "dataModelVersion": 2, "modified": "2014-09-21T19:33:29.335174+00:00", "repeat": [1, 1], "imageRef": "21bef3468f8ed8451bf81955b29151eb2e3afbb3.jpg", "offset": [0, 0], "id": "c4e5d6ad08964d45bdd5e066b7c9a079.texture", "anisotropy": 1, "wrapT": "Repeat"}, "de53e71ae981419da4e965e40ee4a3e6.entity": {"name": "Directional", "license": "CC0", "created": "2014-09-18T17:55:21.601755+00:00", "deleted": false, "_readOnly": false, "modified": "2014-09-18T17:55:21.601789+00:00", "dataModelVersion": 2, "static": false, "components": {"light": {"direction": [0, 0, 0], "shadowCaster": false, "color": [1, 1, 1, 1], "intensity": 0.8, "range": 60, "specularIntensity": 1, "penumbra": 5, "angle": 30, "type": "DirectionalLight", "shadowSettings": {"fov": 55, "darkness": 1, "far": 60, "near": 1, "resolution": [256, 256], "shadowType": "Basic", "size": 100}}, "transform": {"rotation": [-38, 21, -18], "scale": [1, 1, 1], "translation": [16, 20.5, 23.3]}}, "hidden": false, "id": "de53e71ae981419da4e965e40ee4a3e6.entity"}, "015af9ab19f944be89273b6ff695bce3.entity": {"name": "Default Lights", "license": "CC0", "created": "2014-09-18T17:55:21.655319+00:00", "deleted": false, "_readOnly": false, "modified": "2014-09-18T17:55:21.655352+00:00", "dataModelVersion": 2, "static": false, "components": {"transform": {"translation": [0, 0, 0], "scale": [1, 1, 1], "rotation": [0, 0, 0], "children": {"e4bfd1aa3ac04a89a23dcec6e95482e1.entity": {"entityRef": "e4bfd1aa3ac04a89a23dcec6e95482e1.entity", "sortValue": 1}, "de53e71ae981419da4e965e40ee4a3e6.entity": {"entityRef": "de53e71ae981419da4e965e40ee4a3e6.entity", "sortValue": 0}}}}, "hidden": false, "id": "015af9ab19f944be89273b6ff695bce3.entity"}, "f9667e874bd04704beab5bd607a1a8f8.scene": {"canvas": {"mode": "Stretch"}, "initialCameraRef": "7dda8d1ef87145b8b4c7129648856256.entity", "name": "Scene", "license": "CC0", "created": "2014-09-18T17:55:08.671Z", "deleted": false, "environmentRef": "bc8b219c05e247d5ae44499060eecbf0.environment", "_readOnly": false, "dataModelVersion": 2, "modified": "2014-09-28T12:20:56.181685+00:00", "entities": {"7dda8d1ef87145b8b4c7129648856256.entity": {"entityRef": "7dda8d1ef87145b8b4c7129648856256.entity", "sortValue": 0}, "015af9ab19f944be89273b6ff695bce3.entity": {"entityRef": "015af9ab19f944be89273b6ff695bce3.entity", "sortValue": 1}}, "posteffectsRef": "5a4aa1d34ad843ec86dd148ff8425aed.posteffects", "id": "f9667e874bd04704beab5bd607a1a8f8.scene"}, "e4bfd1aa3ac04a89a23dcec6e95482e1.entity": {"name": "Directional 2", "license": "CC0", "created": "2014-09-18T17:55:21.755042+00:00", "deleted": false, "_readOnly": false, "modified": "2014-09-18T17:55:21.755076+00:00", "dataModelVersion": 2, "static": false, "components": {"light": {"direction": [0, 0, 0], "shadowCaster": false, "color": [1, 1, 1, 1], "intensity": 0.4, "range": 60, "specularIntensity": 1, "penumbra": 5, "angle": 30, "type": "DirectionalLight", "shadowSettings": {"fov": 55, "darkness": 1, "far": 60, "near": 1, "resolution": [256, 256], "shadowType": "Basic", "size": 100}}, "transform": {"rotation": [-31, 129, 0], "scale": [1, 1, 1], "translation": [15, 11.6, -12.2]}}, "hidden": false, "id": "e4bfd1aa3ac04a89a23dcec6e95482e1.entity"}, "5a4aa1d34ad843ec86dd148ff8425aed.posteffects": {"name": "Post effects", "license": "CC0", "created": "2014-09-18T17:55:08.674Z", "deleted": false, "_readOnly": false, "dataModelVersion": 2, "posteffects": {"cdc30f9e17ef49468d30698ac9b60db9.posteffect": {"name": "Bloom", "enabled": true, "sortValue": 1, "id": "cdc30f9e17ef49468d30698ac9b60db9.posteffect", "type": "Bloom", "options": {"opacity": 100, "brightness": -45, "contrast": 82, "size": 0.81}}}, "modified": "2014-09-28T12:26:41.956143+00:00", "id": "5a4aa1d34ad843ec86dd148ff8425aed.posteffects"}, "a49fda59e36246d99cf4b51bb35bcf55.project": {"mainSceneRef": "f9667e874bd04704beab5bd607a1a8f8.scene", "name": "TunnanEnvironment", "license": "CC0", "created": "2014-09-18T17:55:08.670Z", "deleted": false, "_readOnly": false, "dataModelVersion": 2, "scenes": {"f9667e874bd04704beab5bd607a1a8f8.scene": {"sortValue": 0, "sceneRef": "f9667e874bd04704beab5bd607a1a8f8.scene"}}, "modified": "2014-09-21T23:51:00.853983+00:00", "id": "a49fda59e36246d99cf4b51bb35bcf55.project", "assets": {"c4e5d6ad08964d45bdd5e066b7c9a079.texture": {"sortValue": 3, "assetRef": "c4e5d6ad08964d45bdd5e066b7c9a079.texture"}, "1d92bc04139948a482f44156031fdb03.skybox": {"sortValue": 2, "assetRef": "1d92bc04139948a482f44156031fdb03.skybox"}, "ff7bc3218bf248148fbb9a46f785d51c.texture": {"sortValue": 0, "assetRef": "ff7bc3218bf248148fbb9a46f785d51c.texture"}}}, "ff7bc3218bf248148fbb9a46f785d51c.texture": {"wrapS": "Repeat", "minFilter": "Trilinear", "name": "ref_sphere.jpg", "license": "CC0", "flipY": true, "deleted": false, "magFilter": "Bilinear", "created": "2014-09-18T17:55:53.393495+00:00", "_readOnly": false, "dataModelVersion": 2, "modified": "2014-09-18T17:55:53.393529+00:00", "repeat": [1, 1], "imageRef": "11f239fc30fb64b0813733a992b51fb4197fb189.jpg", "offset": [0, 0], "id": "ff7bc3218bf248148fbb9a46f785d51c.texture", "anisotropy": 1, "wrapT": "Repeat"}, "1d92bc04139948a482f44156031fdb03.skybox": {"box": {"enabled": false}, "name": "SkySphere Colored", "license": "CC0", "created": "2014-09-16T19:05:07.194Z", "deleted": false, "_readOnly": false, "dataModelVersion": 2, "modified": "2014-09-23T17:11:12.550747+00:00", "sphere": {"enabled": true, "sphereRef": "ff7bc3218bf248148fbb9a46f785d51c.texture"}, "id": "1d92bc04139948a482f44156031fdb03.skybox"}, "7dda8d1ef87145b8b4c7129648856256.entity": {"name": "Default Camera", "license": "CC0", "created": "2014-09-18T17:55:08.676Z", "deleted": false, "_readOnly": false, "modified": "2014-09-28T12:26:47.086538+00:00", "dataModelVersion": 2, "static": false, "components": {"camera": {"fov": 45, "lockedRatio": false, "far": 1000, "followEditorCam": true, "projectionMode": "Perspective", "near": 1, "aspect": 1, "size": 5}, "transform": {"translation": [-3.1721599102020264, -2.0164151191711426, -1.3680182695388794], "scale": [1, 1, 1], "rotation": [30.271876514738413, -113.3284887983782, 0]}, "script": {"scripts": {"f9cf60f49d2845139426141f53abad9c.scriptInstance": {"scriptRef": "GOO_ENGINE_SCRIPTS/OrbitNPanControlScript", "name": "OrbitNPan", "sortValue": 0, "options": {"maxAscent": 89.95, "whenUsed": true, "zoomSpeed": 1, "clampAzimuth": false, "maxAzimuth": 270, "minZoomDistance": 1, "enabled": true, "minAzimuth": 90, "minAscent": -89, "lookAtDistance": 4, "drag": 0.9, "dragButton": "Left", "panButton": "Right", "orbitSpeed": 0.005, "smoothness": 0.4, "maxZoomDistance": 1000}}}}}, "hidden": false, "id": "7dda8d1ef87145b8b4c7129648856256.entity"}}
+{
+  "bc8b219c05e247d5ae44499060eecbf0.environment": {
+    "sound": {
+      "volume": 1,
+      "dopplerFactor": 0,
+      "reverb": 0,
+      "rolloffFactor": 0.4,
+      "maxDistance": 100
+    },
+    "backgroundColor": [
+      0.3,
+      0.3,
+      0.3,
+      1
+    ],
+    "license": "CC0",
+    "created": "2014-09-18T17:55:08.674Z",
+    "deleted": false,
+    "_readOnly": false,
+    "dataModelVersion": 2,
+    "modified": "2014-09-23T17:11:12.607272+00:00",
+    "weather": {
+      "snow": {
+        "velocity": 10,
+        "rate": 10,
+        "enabled": false,
+        "height": 25
+      }
+    },
+    "fog": {
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "far": 996,
+      "near": 0,
+      "enabled": false
+    },
+    "globalAmbient": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "skyboxRef": "1d92bc04139948a482f44156031fdb03.skybox",
+    "id": "bc8b219c05e247d5ae44499060eecbf0.environment",
+    "name": "DefaultEnvironment"
+  },
+  "c4e5d6ad08964d45bdd5e066b7c9a079.texture": {
+    "wrapS": "Repeat",
+    "minFilter": "Trilinear",
+    "name": "10567-normal.jpg",
+    "license": "CC0",
+    "flipY": true,
+    "deleted": false,
+    "magFilter": "Bilinear",
+    "created": "2014-09-21T19:33:29.335133+00:00",
+    "_readOnly": false,
+    "dataModelVersion": 2,
+    "modified": "2014-09-21T19:33:29.335174+00:00",
+    "repeat": [
+      1,
+      1
+    ],
+    "imageRef": "21bef3468f8ed8451bf81955b29151eb2e3afbb3.jpg",
+    "offset": [
+      0,
+      0
+    ],
+    "id": "c4e5d6ad08964d45bdd5e066b7c9a079.texture",
+    "anisotropy": 1,
+    "wrapT": "Repeat"
+  },
+  "de53e71ae981419da4e965e40ee4a3e6.entity": {
+    "name": "Directional",
+    "license": "CC0",
+    "created": "2014-09-18T17:55:21.601755+00:00",
+    "deleted": false,
+    "_readOnly": false,
+    "modified": "2014-09-18T17:55:21.601789+00:00",
+    "dataModelVersion": 2,
+    "static": false,
+    "components": {
+      "light": {
+        "direction": [
+          0,
+          0,
+          0
+        ],
+        "shadowCaster": false,
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "intensity": 0.8,
+        "range": 60,
+        "specularIntensity": 1,
+        "penumbra": 5,
+        "angle": 30,
+        "type": "DirectionalLight",
+        "shadowSettings": {
+          "fov": 55,
+          "darkness": 1,
+          "far": 60,
+          "near": 1,
+          "resolution": [
+            256,
+            256
+          ],
+          "shadowType": "Basic",
+          "size": 100
+        }
+      },
+      "transform": {
+        "rotation": [
+          -38,
+          21,
+          -18
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "translation": [
+          16,
+          20.5,
+          23.3
+        ]
+      }
+    },
+    "hidden": false,
+    "id": "de53e71ae981419da4e965e40ee4a3e6.entity"
+  },
+  "015af9ab19f944be89273b6ff695bce3.entity": {
+    "name": "Default Lights",
+    "license": "CC0",
+    "created": "2014-09-18T17:55:21.655319+00:00",
+    "deleted": false,
+    "_readOnly": false,
+    "modified": "2014-09-18T17:55:21.655352+00:00",
+    "dataModelVersion": 2,
+    "static": false,
+    "components": {
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "children": {
+          "e4bfd1aa3ac04a89a23dcec6e95482e1.entity": {
+            "entityRef": "e4bfd1aa3ac04a89a23dcec6e95482e1.entity",
+            "sortValue": 1
+          },
+          "de53e71ae981419da4e965e40ee4a3e6.entity": {
+            "entityRef": "de53e71ae981419da4e965e40ee4a3e6.entity",
+            "sortValue": 0
+          }
+        }
+      }
+    },
+    "hidden": false,
+    "id": "015af9ab19f944be89273b6ff695bce3.entity"
+  },
+  "f9667e874bd04704beab5bd607a1a8f8.scene": {
+    "canvas": {
+      "mode": "Stretch"
+    },
+    "initialCameraRef": "7dda8d1ef87145b8b4c7129648856256.entity",
+    "name": "Scene",
+    "license": "CC0",
+    "created": "2014-09-18T17:55:08.671Z",
+    "deleted": false,
+    "environmentRef": "bc8b219c05e247d5ae44499060eecbf0.environment",
+    "_readOnly": false,
+    "dataModelVersion": 2,
+    "modified": "2014-09-28T12:20:56.181685+00:00",
+    "entities": {
+      "7dda8d1ef87145b8b4c7129648856256.entity": {
+        "entityRef": "7dda8d1ef87145b8b4c7129648856256.entity",
+        "sortValue": 0
+      },
+      "015af9ab19f944be89273b6ff695bce3.entity": {
+        "entityRef": "015af9ab19f944be89273b6ff695bce3.entity",
+        "sortValue": 1
+      }
+    },
+    "posteffectsRef": "5a4aa1d34ad843ec86dd148ff8425aed.posteffects",
+    "id": "f9667e874bd04704beab5bd607a1a8f8.scene"
+  },
+  "e4bfd1aa3ac04a89a23dcec6e95482e1.entity": {
+    "name": "Directional 2",
+    "license": "CC0",
+    "created": "2014-09-18T17:55:21.755042+00:00",
+    "deleted": false,
+    "_readOnly": false,
+    "modified": "2014-09-18T17:55:21.755076+00:00",
+    "dataModelVersion": 2,
+    "static": false,
+    "components": {
+      "light": {
+        "direction": [
+          0,
+          0,
+          0
+        ],
+        "shadowCaster": false,
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 60,
+        "specularIntensity": 1,
+        "penumbra": 5,
+        "angle": 30,
+        "type": "DirectionalLight",
+        "shadowSettings": {
+          "fov": 55,
+          "darkness": 1,
+          "far": 60,
+          "near": 1,
+          "resolution": [
+            256,
+            256
+          ],
+          "shadowType": "Basic",
+          "size": 100
+        }
+      },
+      "transform": {
+        "rotation": [
+          -31,
+          129,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "translation": [
+          15,
+          11.6,
+          -12.2
+        ]
+      }
+    },
+    "hidden": false,
+    "id": "e4bfd1aa3ac04a89a23dcec6e95482e1.entity"
+  },
+  "5a4aa1d34ad843ec86dd148ff8425aed.posteffects": {
+    "name": "Post effects",
+    "license": "CC0",
+    "created": "2014-09-18T17:55:08.674Z",
+    "deleted": false,
+    "_readOnly": false,
+    "dataModelVersion": 2,
+    "posteffects": {
+      "cdc30f9e17ef49468d30698ac9b60db9.posteffect": {
+        "name": "Bloom",
+        "enabled": true,
+        "sortValue": 1,
+        "id": "cdc30f9e17ef49468d30698ac9b60db9.posteffect",
+        "type": "Bloom",
+        "options": {
+          "opacity": 100,
+          "brightness": -45,
+          "contrast": 82,
+          "size": 0.81
+        }
+      }
+    },
+    "modified": "2014-09-28T12:26:41.956143+00:00",
+    "id": "5a4aa1d34ad843ec86dd148ff8425aed.posteffects"
+  },
+  "a49fda59e36246d99cf4b51bb35bcf55.project": {
+    "mainSceneRef": "f9667e874bd04704beab5bd607a1a8f8.scene",
+    "name": "TunnanEnvironment",
+    "license": "CC0",
+    "created": "2014-09-18T17:55:08.670Z",
+    "deleted": false,
+    "_readOnly": false,
+    "dataModelVersion": 2,
+    "scenes": {
+      "f9667e874bd04704beab5bd607a1a8f8.scene": {
+        "sortValue": 0,
+        "sceneRef": "f9667e874bd04704beab5bd607a1a8f8.scene"
+      }
+    },
+    "modified": "2014-09-21T23:51:00.853983+00:00",
+    "id": "a49fda59e36246d99cf4b51bb35bcf55.project",
+    "assets": {
+      "c4e5d6ad08964d45bdd5e066b7c9a079.texture": {
+        "sortValue": 3,
+        "assetRef": "c4e5d6ad08964d45bdd5e066b7c9a079.texture"
+      },
+      "1d92bc04139948a482f44156031fdb03.skybox": {
+        "sortValue": 2,
+        "assetRef": "1d92bc04139948a482f44156031fdb03.skybox"
+      },
+      "ff7bc3218bf248148fbb9a46f785d51c.texture": {
+        "sortValue": 0,
+        "assetRef": "ff7bc3218bf248148fbb9a46f785d51c.texture"
+      }
+    }
+  },
+  "ff7bc3218bf248148fbb9a46f785d51c.texture": {
+    "wrapS": "Repeat",
+    "minFilter": "Trilinear",
+    "name": "ref_sphere.jpg",
+    "license": "CC0",
+    "flipY": true,
+    "deleted": false,
+    "magFilter": "Bilinear",
+    "created": "2014-09-18T17:55:53.393495+00:00",
+    "_readOnly": false,
+    "dataModelVersion": 2,
+    "modified": "2014-09-18T17:55:53.393529+00:00",
+    "repeat": [
+      1,
+      1
+    ],
+    "imageRef": "11f239fc30fb64b0813733a992b51fb4197fb189.jpg",
+    "offset": [
+      0,
+      0
+    ],
+    "id": "ff7bc3218bf248148fbb9a46f785d51c.texture",
+    "anisotropy": 1,
+    "wrapT": "Repeat"
+  },
+  "1d92bc04139948a482f44156031fdb03.skybox": {
+    "box": {
+      "enabled": false
+    },
+    "name": "SkySphere Colored",
+    "license": "CC0",
+    "created": "2014-09-16T19:05:07.194Z",
+    "deleted": false,
+    "_readOnly": false,
+    "dataModelVersion": 2,
+    "modified": "2014-09-23T17:11:12.550747+00:00",
+    "sphere": {
+      "enabled": true,
+      "sphereRef": "ff7bc3218bf248148fbb9a46f785d51c.texture"
+    },
+    "id": "1d92bc04139948a482f44156031fdb03.skybox"
+  },
+  "7dda8d1ef87145b8b4c7129648856256.entity": {
+    "name": "Default Camera",
+    "license": "CC0",
+    "created": "2014-09-18T17:55:08.676Z",
+    "deleted": false,
+    "_readOnly": false,
+    "modified": "2014-09-28T12:26:47.086538+00:00",
+    "dataModelVersion": 2,
+    "static": false,
+    "components": {
+      "camera": {
+        "fov": 45,
+        "lockedRatio": false,
+        "far": 1000,
+        "followEditorCam": true,
+        "projectionMode": "Perspective",
+        "near": 1,
+        "aspect": 1,
+        "size": 5
+      },
+      "transform": {
+        "translation": [
+          -3.172159910202,
+          -2.0164151191711,
+          -1.3680182695389
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotation": [
+          30.271876514738,
+          -113.32848879838,
+          0
+        ]
+      },
+      "script": {
+        "scripts": {
+          "f9cf60f49d2845139426141f53abad9c.scriptInstance": {
+            "scriptRef": "GOO_ENGINE_SCRIPTS\/OrbitNPanControlScript",
+            "name": "OrbitNPan",
+            "sortValue": 0,
+            "options": {
+              "maxAscent": 89.95,
+              "whenUsed": true,
+              "zoomSpeed": 1,
+              "clampAzimuth": false,
+              "maxAzimuth": 270,
+              "minZoomDistance": 1,
+              "enabled": true,
+              "minAzimuth": 90,
+              "minAscent": -89,
+              "lookAtDistance": 4,
+              "drag": 0.9,
+              "dragButton": "Left",
+              "panButton": "Right",
+              "orbitSpeed": 0.005,
+              "smoothness": 0.4,
+              "maxZoomDistance": 1000
+            }
+          }
+        }
+      }
+    },
+    "hidden": false,
+    "id": "7dda8d1ef87145b8b4c7129648856256.entity"
+  }
+}
