@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<varlist name="ProjectData">
+	<int name="FileVersion">1</int>
+	<varlist name="MapInfo">
+		<varlist name="Terrain">
+			<int name="nx">128</int>
+			<int name="ny">128</int>
+			<float name="MinAlt">-161.453</float>
+			<float name="MaxAlt">500</float>
+			<float name="HorizScale">50</float>
+		</varlist>
+		<varlist name="Texture">
+			<int name="nx">128</int>
+			<int name="ny">128</int>
+		</varlist>
+		<bool name="WrapFlag">false</bool>
+	</varlist>
+	<varlist name="Maps">
+		<varlist name="HF">
+			<string name="Filename">cove_HF.hfz</string>
+			<string name="MapType">HF</string>
+		</varlist>
+		<varlist name="TX">
+			<string name="Filename">TX\cove_TX.mmf</string>
+			<string name="MapType">RGB</string>
+		</varlist>
+	</varlist>
+	<varlist name="Climates">
+		<varlist name="Temperate">
+			<string name="Filename">C:\Users\Spoo\L3DT\Resources\Std 13.10.0.2\Climates\temperate26\Temperate26.cli.xml</string>
+		</varlist>
+	</varlist>
+</varlist>

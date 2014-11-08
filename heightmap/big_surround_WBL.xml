@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<varlist name="WaterBodyList">
+	<WaterBody>
+		<int name="WaterID">1</int>
+		<int name="Type">10</int>
+		<float name="WaterLevel">0.000000</float>
+		<int64 name="nPixels">0</int64>
+		<int name="xCoord">0</int>
+		<int name="yCoord">0</int>
+	</WaterBody>
+</varlist>
